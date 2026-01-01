@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dashboard - EarnBangla</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Dashboard</h2>
+
+<p id="balance">Balance: 0</p>
+<p id="inviteCode">Invite Code: </p>
+
+<h3>Withdraw</h3>
+<input id="withdrawAmount" type="number" placeholder="Enter amount">
+<button onclick="withdraw()">Withdraw</button>
+
+<button onclick="logout()">Logout</button>
+
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+
+<script src="fb.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
